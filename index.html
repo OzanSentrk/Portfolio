@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+             publicKey: "zU6Mj3EVc5MpSLDz3",
+            });
+        })();
+    </script>
+    <script src="JS/send_mail.js"></script>
+</head>
+<body>
+
+    <header class = "header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            
+                <a href="#home" class = "active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Merhaba</h3>
+            <h1>Ozan Şentürk</h1>
+            <h3>Ben <span class ="multiple-text">Frontend Developer </span>Olmaya Çalışıyorum</h3>
+            <p>Hello, I'm Ozan Şentürk. I am an aspiring Frontend Developer passionately committed to designing creative and user-friendly web experiences. My interest in technology and relentless pursuit of learning keep me informed about the latest web technologies and trends. Throughout my professional journey, I aim to create impressive user interfaces that blend aesthetics with functionality. I am eager to collaborate and demonstrate how I can add value to your projects. I invite you to a better digital experience.</p>
+
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/ozansentrk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ozan-%C5%9Fent%C3%BCrk-98199a1b7/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/OzanSentrk" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+            <a href="https://github.com/OzanSentrk/OzanSenturk_cv/archive/refs/heads/main.zip" class="btn" download="Ozan_Senturk_CV.pdf">Download CV</a>
+
+            
+        </div>
+        <div class="home-img">
+            <img src="images/vessi_processed-fotor-2024081210845.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/vessi_processed.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class ="heading">About <span>Me</span> </h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a 4th-year computer engineering student who has always been passionate about learning and researching new information. Since childhood, my interest in digital and technological products has driven me towards pursuing a degree in computer engineering and becoming a computer engineer, fulfilling one of my childhood dreams. I am inclined towards teamwork and believe in enhancing my own knowledge as well as that of my teammates through collaborative idea exchange.
+                I have extensive experience in frontend web development using HTML, CSS, and JavaScript. My graduation project was also focused on creating a frontend website. I have developed various projects utilizing frontend development tools like HTML, CSS, JavaScript, and MySQL. Although I am currently focusing on improving my skills in frontend development, I am confident in my ability to quickly adapt to other areas as well. I also have experience with Python and Java due to my academic background.</p>
+            <a href="'#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id ="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="portfolio" id ="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/logo_caloricrafter.png" alt="Calorie Crafter">
+                <div class="portfolio-layer">
+                    <h4>Calorie Crafter</h4>
+                    <p>Calorie Crafter is a website designed to organize and monitor people's dietary habits. With Calorie Crafter, users can receive personalized daily menu recommendations based on their body metrics and goals. Additionally, they can log their meals throughout the day into our system and track their daily intake of calories, carbohydrates, protein, and fat both textually and visually.Calorie Crafter is not published project but you can access the source code of this project on Github. You can click the button to go Calorie Crafter repository.</p>
+                    <i id="CalorieCrafterBtn" class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img class="survy_logo" src="images/logo_full.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Survy</h4>
+                    <p>"Survy is a website that allows users to create surveys and participate in surveys created by others. Survy also has an AI-based analysis capability that provides insights based on the responses to your surveys."</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur necessitatibus quas expedita suscipit a earum illo repellat vitae cumque rem perspiciatis perferendis, est in tempore veniam quia fuga quidem. Ea.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur necessitatibus quas expedita suscipit a earum illo repellat vitae cumque rem perspiciatis perferendis, est in tempore veniam quia fuga quidem. Ea.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur necessitatibus quas expedita suscipit a earum illo repellat vitae cumque rem perspiciatis perferendis, est in tempore veniam quia fuga quidem. Ea.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur necessitatibus quas expedita suscipit a earum illo repellat vitae cumque rem perspiciatis perferendis, est in tempore veniam quia fuga quidem. Ea.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form onsubmit="sendMail(event)">
+            <div class="input-box">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                <input type="email" name="email" id="email" placeholder="E-Mail Address" required>
+            </div>
+            
+            <div class="input-box">
+                <input type="text" name="subject"  id= "subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id = "message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        
+
+    </section>
+    
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/1f0d099c7c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
